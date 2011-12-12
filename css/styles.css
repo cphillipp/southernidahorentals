@@ -1,0 +1,43 @@
+/* GENERAL */
+*                                   {margin:0; padding:0; background:none; outline:none; border:none;}
+body                                {margin:0; padding:0; width:100%; font-family:'Abel', arial, sans; font-size:14px; color:#000; line-height:18px; background:url('../images/body.jpg') repeat 0 0;}
+a                                   {color:#ea8e00; text-decoration:underline;}
+a:hover                             {color:#feb52f; text-decoration:none;}
+ul, ol                              {list-style-type:none;}
+::selection                         {background-color:#FF0054; color:#000000;}
+::moz-selection                     {background-color:#FF0054; color:#000000;}
+::webkit-selection                  {background-color:#FF0054; color:#000000;}
+.sprite                             {display:block; background:url("../images/sprite.png");}
+.clear                              {clear:both;}
+.button                             {margin:0; padding:5px 10px; color:#fff; font-size:12px; background:#ea8e00; text-decoration:none; -moz-border-radius:5px; border-radius:5px;}
+.button:hover                       {color:#fff; background:#feb52f; text-decoration:none;}
+
+/* HEADER */
+.header                             {margin:0 auto; padding:0; width:940px; height:150px; position:relative;}
+.header .logo                       {margin:0; padding:0; width:200px; height:50px; display:block; position:absolute; bottom:30px; left:0px;}
+.header .logo a                     {margin:0; padding:0; width:200px; height:50px; display:block; text-indent:-9999px; background:url('../images/logo2.png') no-repeat 0 0;}
+.header ul                          {margin:0; padding:0; overflow:hidden; position:absolute; bottom:30px; right:0px;}
+.header ul li                       {margin:0 5px; padding:0; float:left;}
+.header ul li a                     {margin:0; padding:5px 10px; display:block; color:#fff; font-size:14px; background:#ea8e00; text-decoration:none; -moz-border-radius:5px; border-radius:5px;} 
+.header ul li a:hover               {background:#feb52f; text-decoration:none;}
+
+/* CONTENT */
+.content                            {margin:0 auto; padding:0 30px; width:940px;}
+.content .banner                    {margin:0; padding:45px 0; width:940px; height:310px; background:url('../images/banner.jpg') no-repeat;  -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;}
+.content .banner img                {margin:0 auto; padding:0; width:850px; display:block;}
+.content .home-text                 {margin:0; padding:20px; background:#f7f7f7; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px; overflow:hidden;}
+.content .home-text h1              {margin:0; padding:0 0 10px; color:#1f1f1f; font-size:24px;}
+.content .home-text p               {margin:0; padding:0 0 5px; color:#666; font-size:14px;}
+.content .home-text p span          {padding:0; width:80px; display:inline-block; color:#1f1f1f;}
+.content .home-text span            {margin:0; padding:0 0 5px; color:#666; font-size:14px;}
+.content .home-text iframe          {margin:0; padding:0; float:right;}
+.content .home-text .button         {margin:10px 10px 0 0; display:inline-block;}
+.content .home-text.top             { -moz-border-radius:15px; border-radius:15px;}
+
+/* FOOTER */
+.footer                             {margin:20px auto; padding:20px; width:900px; background:url('../images/banner.jpg') no-repeat; position:relative; -moz-border-radius:15px; border-radius:15px;}
+.footer ul                          {margin:0; padding:0; overflow:hidden;}
+.footer ul li                       {margin:0 5px; padding:0; float:left;}
+.footer ul li a                     {margin:0; padding:0 5px; display:block; color:#ea8e00; font-size:12px; text-decoration:underline;} 
+.footer ul li a:hover               {color:#feb52f; text-decoration:none;}
+
