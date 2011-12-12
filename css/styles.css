@@ -21,6 +21,12 @@ ul, ol                              {list-style-type:none;}
 .header ul li a                     {margin:0; padding:5px 10px; display:block; color:#fff; font-size:14px; background:#ea8e00; text-decoration:none; -moz-border-radius:5px; border-radius:5px;} 
 .header ul li a:hover               {background:#feb52f; text-decoration:none;}
 
+/* SLIDESHOW */
+#slideshow                          {position:relative;}
+#slideshow img                      {position:absolute; top:45px; left:30px; z-index:8;}
+#slideshow img.active               {z-index:10;}
+#slideshow img.last-active          {z-index:9;}
+
 /* CONTENT */
 .content                            {margin:0 auto; padding:0 30px; width:940px;}
 .content .banner                    {margin:0; padding:45px 0; width:940px; height:310px; background:url('../images/banner.jpg') no-repeat;  -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;}

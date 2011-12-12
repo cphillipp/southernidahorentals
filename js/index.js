@@ -1,20 +1,24 @@
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
 $(document).ready(function() {
-  $('#pocatello').click(function() {
-    $('#pocatello ul').show('fast', function() {
-      // Animation complete.
-    });
-  });
-  $('#idahoFalls').click(function() {
-    $('#idahoFalls ul').show('fast', function() {
-      // Animation complete.
-    });
-  });
-  $('#twinFalls').click(function() {
-    $('#twinFalls ul').show('fast', function() {
-      // Animation complete.
-    });
-  });
-  $('.nav').mouseleave(function() {
-    $('.nav ul').fadeOut("fast");
-  });
+
 });
