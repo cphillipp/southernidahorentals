@@ -34,7 +34,7 @@ ul, ol                              {list-style-type:none;}
 .content .home-text                 {margin:0; padding:45px; background:#f7f7f7; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px; overflow:hidden;}
 .content .home-text h1              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:28px;}
 .content .home-text h2              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:25px; font-weight:normal;}
-.content .home-text h3              {margin:0; padding:0; color:#1f1f1f; font-size:20px; font-weight:normal;}
+.content .home-text h3              {margin:0; padding:0; color:#1f1f1f; font-size:18px; font-weight:normal;}
 .content .home-text p               {margin:0; padding:10px 0; color:#666; font-size:15px; line-height:22px;}
 .content .home-text p.bold          {padding:0 0 5px; color:#333; font-size:16px; line-height:18px;}
 .content .home-text p.small         {padding:10px 0 5px;font-size:14px; line-height:18px;}
