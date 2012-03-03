@@ -9,7 +9,7 @@ ul, ol                              {list-style-type:none;}
 ::webkit-selection                  {background-color:#FF0054; color:#000000;}
 .sprite                             {display:block; background:url("../images/sprite.png");}
 .clear                              {clear:both;}
-.button                             {margin:0; padding:5px 10px; color:#fff; font-size:12px; background:#ea8e00; text-decoration:none; -moz-border-radius:5px; border-radius:5px;}
+.button                             {margin:0; padding:5px 10px; color:#fff; font-size:14px; background:#ea8e00; text-decoration:none; -moz-border-radius:5px; border-radius:5px;}
 .button:hover                       {color:#fff; background:#feb52f; text-decoration:none;}
 
 /* HEADER */
@@ -23,7 +23,7 @@ ul, ol                              {list-style-type:none;}
 
 /* SLIDESHOW */
 #slideshow                          {position:relative;}
-#slideshow img                      {position:absolute; top:45px; left:30px; z-index:8;}
+#slideshow img                      {position:absolute; top:45px; left:45px; z-index:8;}
 #slideshow img.active               {z-index:10;}
 #slideshow img.last-active          {z-index:9;}
 
@@ -31,14 +31,25 @@ ul, ol                              {list-style-type:none;}
 .content                            {margin:0 auto; padding:0 30px; width:940px;}
 .content .banner                    {margin:0; padding:45px 0; width:940px; height:310px; background:url('../images/banner.jpg') no-repeat;  -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;}
 .content .banner img                {margin:0 auto; padding:0; width:850px; display:block;}
-.content .home-text                 {margin:0; padding:20px; background:#f7f7f7; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px; overflow:hidden;}
-.content .home-text h1              {margin:0; padding:0 0 10px; color:#1f1f1f; font-size:24px;}
-.content .home-text p               {margin:0; padding:0 0 5px; color:#666; font-size:14px;}
-.content .home-text p span          {padding:0; width:80px; display:inline-block; color:#1f1f1f;}
+.content .home-text                 {margin:0; padding:45px; background:#f7f7f7; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px; overflow:hidden;}
+.content .home-text h1              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:28px;}
+.content .home-text h2              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:25px; font-weight:normal;}
+.content .home-text h3              {margin:0; padding:0; color:#1f1f1f; font-size:20px; font-weight:normal;}
+.content .home-text p               {margin:0; padding:10px 0; color:#666; font-size:15px; line-height:22px;}
+.content .home-text p.bold          {padding:0 0 5px; color:#333; font-size:16px; line-height:18px;}
+.content .home-text p.small         {padding:10px 0 5px;font-size:14px; line-height:18px;}
+.content .home-text ul              {margin:0; padding:0 0 30px;}
+.content .home-text ul li           {margin:0; padding:0 0 5px; font-size:14px; color:#1f1f1f;}
+.content .home-text ul li span      {padding:0; width:80px; display:inline-block; color:#1f1f1f;}
+.content .home-text ul li span.large{width:130px;}
 .content .home-text span            {margin:0; padding:0 0 5px; color:#666; font-size:14px;}
-.content .home-text iframe          {margin:0; padding:0; float:right;}
-.content .home-text .button         {margin:10px 10px 0 0; display:inline-block;}
-.content .home-text.top             { -moz-border-radius:15px; border-radius:15px;}
+.content .home-text iframe          {margin:0 0 0 10px; padding:0; float:right;}
+.content .home-text img             {margin:0 0 0 10px; padding:0; float:right;}
+.content .home-text .button         {margin:10px 10px 30px 0; display:inline-block;}
+.content .home-text.top             {-moz-border-radius:15px; border-radius:15px;}
+.content .home-text .addy           {margin:0; padding:0 0 30px; width:415px; overflow:hidden;}
+.content .home-text .addy .left     {margin:0; padding:0; width:48%; float:left;}
+.content .home-text .addy .right    {margin:0; padding:0; width:48%; float:right;}
 
 /* FOOTER */
 .footer                             {margin:20px auto; padding:20px; width:900px; background:url('../images/banner.jpg') no-repeat; position:relative; -moz-border-radius:15px; border-radius:15px;}
