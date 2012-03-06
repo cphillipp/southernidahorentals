@@ -33,6 +33,7 @@ ul, ol                              {list-style-type:none;}
 .content .banner img                {margin:0 auto; padding:0; width:850px; display:block;}
 .content .home-text                 {margin:0; padding:45px; background:#f7f7f7; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px; overflow:hidden;}
 .content .home-text h1              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:28px;}
+.content .home-text h1 span         {margin:0; padding:0; color:#ae0303; font-size:14px; font-weight:normal; text-transform:uppercase; position:relative; top:-3px;}
 .content .home-text h2              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:25px; font-weight:normal;}
 .content .home-text h3              {margin:0; padding:0; color:#1f1f1f; font-size:18px; font-weight:normal;}
 .content .home-text p               {margin:0; padding:10px 0; color:#666; font-size:15px; line-height:22px;}
