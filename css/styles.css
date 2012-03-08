@@ -13,7 +13,7 @@ ul, ol                              {list-style-type:none;}
 .button:hover                       {color:#fff; background:#feb52f; text-decoration:none;}
 
 /* HEADER */
-.header                             {margin:0 auto; padding:0; width:940px; height:150px; position:relative;}
+.header                             {margin:0 auto; padding:0; width:940px; height:105px; position:relative;}
 .header .logo                       {margin:0; padding:0; width:200px; height:50px; display:block; position:absolute; bottom:30px; left:0px;}
 .header .logo a                     {margin:0; padding:0; width:200px; height:50px; display:block; text-indent:-9999px; background:url('../images/logo2.png') no-repeat 0 0;}
 .header ul                          {margin:0; padding:0; overflow:hidden; position:absolute; bottom:30px; right:0px;}
@@ -33,7 +33,6 @@ ul, ol                              {list-style-type:none;}
 .content .banner img                {margin:0 auto; padding:0; width:850px; display:block;}
 .content .home-text                 {margin:0; padding:45px; background:#f7f7f7; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px; overflow:hidden;}
 .content .home-text h1              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:28px;}
-.content .home-text h1 span         {margin:0; padding:0; color:#ae0303; font-size:14px; font-weight:normal; text-transform:uppercase; position:relative; top:-3px;}
 .content .home-text h2              {margin:0; padding:0 0 15px; color:#1f1f1f; font-size:25px; font-weight:normal;}
 .content .home-text h3              {margin:0; padding:0; color:#1f1f1f; font-size:18px; font-weight:normal;}
 .content .home-text p               {margin:0; padding:10px 0; color:#666; font-size:15px; line-height:22px;}
